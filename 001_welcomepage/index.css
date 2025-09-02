@@ -68,6 +68,16 @@ nav ul li a:hover {
     text-align: center;
 }
 
+/*Contact section*/
+.contact h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contact p {
+    text-align: center;
+}
+
 /* Footer */
 footer {
     text-align: center;

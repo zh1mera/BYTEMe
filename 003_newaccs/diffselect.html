@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Level</title>
+  <link rel="stylesheet" href="ds.css">
+</head>
+<body>
+  <div class="choice-container">
+    <h2>Select Your Level</h2>
+    <button class="choice-btn" onclick="openModal('Beginner')">Beginner</button>
+    <button class="choice-btn" onclick="openModal('Intermediate')">Intermediate</button>
+    <button class="choice-btn" onclick="openModal('Pro')">Pro</button>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h3 id="modal-title">Welcome</h3>
+      <p id="modal-text">Welcome!</p>
+      <div class="modal-actions">
+        <button class="proceed-btn">Proceed</button>
+        <button class="back-btn" onclick="closeModal()">Back</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="ds.js"></script>
+</body>
+</html>

@@ -17,13 +17,19 @@
       <input type="email" id="email" name="email" required>
 
       <label for="password">Password</label>
-      <input type="password" id="password" name="password" required>
+      <div class="password-container">
+        <input type="password" id="password" name="password" required>
+        <span class="toggle-password" onclick="togglePassword()">👁️</span>
+      </div>
 
-      <button type="submit" class="signup-btn">Sign Up</button>
+      <button type="submit" class="signup-btn" onclick="window.location.href='../../003_newaccs/diffselect.html'">Sign Up</button>
     </form>
 
     <!-- Back button -->
     <button onclick="window.history.back()" class="back-btn">Back</button>
   </div>
+
+    <script src="si.js"></script>
+
 </body>
 </html>

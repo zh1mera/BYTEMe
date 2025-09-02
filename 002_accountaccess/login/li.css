@@ -53,20 +53,61 @@ button {
   cursor: pointer;
 }
 
+/* Buttons */
 .signup-btn {
   background: #4CAF50;
   color: white;
 }
-
 .signup-btn:hover {
   background: #45a049;
+}
+
+.login-btn {
+  background: #2196F3;
+  color: white;
+}
+.login-btn:hover {
+  background: #1976D2;
 }
 
 .back-btn {
   background: #ddd;
   color: #333;
 }
-
 .back-btn:hover {
   background: #bbb;
+}
+
+.show-pass {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.show-pass input {
+  margin-right: 8px;
+}
+
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+.password-container input {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* extra padding for the icon */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.password-container .toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  user-select: none;
+  font-size: 16px;
 }
