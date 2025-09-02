@@ -8,4 +8,3 @@ BYTEMe is entering its fifth version
 The last versions were scrapped due to failure of following the main developers vision
 
 Without further ado, lets start.
-
